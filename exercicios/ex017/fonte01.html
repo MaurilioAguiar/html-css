@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <!--Usando o style local-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family: 'Work Sans';
+            /*Medidas absolutas: cm, mm, in(polegada), px(pixel)mais usada, pt(ponto), pc(paica).
+            
+            Medidas relativas: em(mais usada), ex, rem, vw, vh, % */
+            font-size: 1em;
+           /* font-style: italic;
+            text-decoration: underline;
+            font-weight: normal;*//*Peso da fonte*/
+        }
+        h1{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font
+            --> font-style -> font-weigt -> font-size -> font-family
+
+            exemplo: font: italic bolder 3em 'Work Sans', sans-seif;
+            */
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body><!--Usando o Style dentro da tag (inline)-->
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloribus quis, consequuntur exercitationem sequi quas vero ratione similique numquam totam veritatis perspiciatis quaerat, dolorem omnis, vel consectetur dolore impedit aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ea atque, voluptatum nulla hic error voluptas iure veritatis deleniti repellendus dolor maxime vel ratione velit neque est eos assumenda. Ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nihil commodi reprehenderit alias non, deserunt aut quam, nesciunt assumenda voluptatum, sit blanditiis ut! Ex impedit omnis voluptatum sed laboriosam qui?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium pariatur atque vitae voluptatem consequatur quam, delectus cumque nulla quo fugiat impedit nostrum enim aperiam. Repudiandae praesentium dolore sequi harum.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe, libero voluptates recusandae, aut architecto debitis dolorem blanditiis laborum incidunt exercitationem delectus? Assumenda, nihil iste. Illum maxime dolores repudiandae aperiam.</p>
+    
+</body>
+</html>
