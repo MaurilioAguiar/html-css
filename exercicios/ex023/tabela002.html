@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;/*usado para colocar o cabeçalho fixo*/
         }
         td, th{
             border: 1px solid black;
@@ -26,6 +27,11 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead > tr > th{/*coloca o cabeçalho fixo*/
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         tbody > tr:nth-child(odd){/*Odd = ímpar, podemos usar também: 2n-1*/
             background-color: rgba(127, 255, 212, 0.459);
